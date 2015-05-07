@@ -4,7 +4,7 @@ Este é um modelo simples de como implementar uma estrutura MVC em PHP
 
   - Utilizar Versão PHP >= 5.4
 
-### Version
+### Versão
 1.0.0
 
 ### Dependências do sistema
@@ -31,11 +31,18 @@ Instale as dependências do sistema
 ```sh
 $ php composer.phar install
 ```
+
+*Crie um novo banco de dados  e importe o arquivo produtos.sql.
+*Abra o arquivo app/Config/database.php e adicione os dados de conexão com o banco de dados.
+
+
 Para testar rode o servidor interno do PHP ou crie um Virtual Host apontando para a pasta public
 ```sh
 $ cd public
 $ php -S localhost:8000
 ```
+
+
 Acesse a url "http://localhost:8000" para visualizar o projeto
 
 
