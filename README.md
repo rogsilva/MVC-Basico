@@ -19,7 +19,7 @@ Siga os seguintes passos para a instalação correta.
 
 Faça o clone do projeto
 ```sh
-$ git clone git@github.com:rogsilva/MVC-Basico.git mvcbasico
+$ git clone https://github.com/rogsilva/MVC-Basico.git mvcbasico
 $ cd mvcbasico
 ```
 Caso não tenha o Composer instalado, faça a instalação
