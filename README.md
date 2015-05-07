@@ -32,8 +32,8 @@ Instale as dependências do sistema
 $ php composer.phar install
 ```
 
-*Crie um novo banco de dados  e importe o arquivo produtos.sql.
-*Abra o arquivo app/Config/database.php e adicione os dados de conexão com o banco de dados.
+* Crie um novo banco de dados  e importe o arquivo produtos.sql.
+* Abra o arquivo app/Config/database.php e adicione os dados de conexão com o banco de dados.
 
 
 Para testar rode o servidor interno do PHP ou crie um Virtual Host apontando para a pasta public
