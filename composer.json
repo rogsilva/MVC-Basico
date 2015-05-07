@@ -3,9 +3,12 @@
     "require": {
         "illuminate/database": "~5.0"
     },
-    "autoload" : {
-        "classmap" : [
-            "app/models"
-        ]
+
+    "autoload": {
+        "psr-4": {
+            "System\\Core\\" : "src/System/Core/",
+            "App\\" : "app/"
+        }
+
     }
 }

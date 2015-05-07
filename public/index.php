@@ -1,5 +1,6 @@
 <?php
 
-require_once "../app/init.php";
+require_once "../src/System/Core/init.php";
 
-$app = new App();
+//Inicializa a aplicação
+$app = new System\Core\Application\App();

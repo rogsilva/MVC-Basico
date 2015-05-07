@@ -1,1 +1,5 @@
-Options -Indexes
+#Options -Indexes
+RewriteEngine on
+RewriteBase /mvcbasico/
+
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
